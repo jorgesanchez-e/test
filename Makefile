@@ -26,4 +26,4 @@ lint:
 clean:
 	APPNAME=$(APPNAME) ./scripts/clean
 
-.PHONY: build run test test-report lint clean docker
+.PHONY: build run test test-report lint clean
