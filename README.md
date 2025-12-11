@@ -13,3 +13,5 @@ Change 5 - testing generic hook.
 Change 6 - Trying to discover the code path.
 
 Change 7 - Trying to discover the code path v2.
+
+Change 8 - Trying to discover the code path v3.
