@@ -7,8 +7,7 @@ export REPORTS_DIR=./reports
 export GOLANGCILINT_VERSION=v1.54.2
 export DOCKER_TAG=1.0
 
-build: clean
-	mkdir -p build
+build:
 	GOOS=$(GOOS) GOARCH=$(GOARCH) APPVERSION=$(APPVERSION) APPNAME=$(APPNAME) ./scripts/build
 
 run: build

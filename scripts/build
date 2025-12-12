@@ -5,7 +5,7 @@ set -o nounset
 
 ROOT_DIR=$(git rev-parse --show-toplevel)
 
-if [ -d "${ROOT_DIR}/build" ]; then
+if [ ! -d "${ROOT_DIR}/build" ]; then
     echo "creating dir ${ROOT_DIR}/build"
     mkdir -p ${ROOT_DIR}/build
 fi
